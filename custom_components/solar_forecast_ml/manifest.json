@@ -1,0 +1,22 @@
+{
+  "domain": "solar_forecast_ml",
+  "name": "Solar Forecast ML",
+  "codeowners": [
+    "@Zara-Toorox"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "recorder"
+  ],
+  "documentation": "https://github.com/Zara-Toorox/ha-solar-forecast-ml",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/Zara-Toorox/ha-solar-forecast-ml/issues",
+  "homeassistant": "2026.3.0",
+  "requirements": [
+    "aiofiles>=23.0.0",
+    "aiosqlite>=0.17.0",
+    "numpy>=2.2.0"
+  ],
+  "version": "18.0.0"
+}
